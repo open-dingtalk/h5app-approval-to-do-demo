@@ -1,0 +1,26 @@
+.bill {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.form {
+    width: 100%;
+    margin-top: 45px;
+    padding-top: 20px;
+}
+
+.btns {
+    display: flex;
+}
