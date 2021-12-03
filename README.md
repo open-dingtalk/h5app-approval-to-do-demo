@@ -149,7 +149,7 @@ npm run build
 
 审批页面
 
-![](https://img.alicdn.com/imgextra/i2/O1CN01XNy4vA1ulm0oebm9l_!!6000000006078-2-tps-450-851.png)
+![](https://img.alicdn.com/imgextra/i1/O1CN01tYJzpU1kJFBP2muel_!!6000000004662-2-tps-1280-2420.png)
 
 ### **参考文档**
 
