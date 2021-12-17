@@ -8,6 +8,7 @@ import com.dingtalk.api.response.*;
 import com.dingtalk.config.AppConfig;
 import com.dingtalk.constant.UrlConstant;
 import com.dingtalk.model.FlowEntity;
+import com.dingtalk.utils.RandomUtil;
 import com.taobao.api.ApiException;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -65,7 +66,7 @@ public class BizManager {
         OapiProcessSaveRequest.SaveProcessRequest saveProcessRequest = new OapiProcessSaveRequest.SaveProcessRequest();
         saveProcessRequest.setAgentid(appConfig.getAgentId());
         ArrayList<OapiProcessSaveRequest.FormComponentVo> formComponentVos = new ArrayList<>();
-        saveProcessRequest.setName("易快报报销单3");
+        saveProcessRequest.setName("易快报报销单" + RandomUtil.getRandomString(6));
 //        saveProcessRequest.setProcessCode("PROC-C38B684F-087B-4F78-9DFF-9FB3D3CD393D");
         saveProcessRequest.setDescription("易快报报销单");
         OapiProcessSaveRequest.FormComponentVo formComponentVo = new OapiProcessSaveRequest.FormComponentVo();
